@@ -1,6 +1,7 @@
 // ==UserScript==
 // @match http://v2ex.com/*
 // @match http://www.v2ex.com/*
+// @exclude http://v2ex.com/signin
 // ==/UserScript==
 
 var i = location.pathname.indexOf("/t/") + 2;
